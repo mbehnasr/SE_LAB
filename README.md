@@ -1,4 +1,37 @@
-# SE_LAB
+# SE_LAB experiment 1
+
+
+در این پروژه از .gitignore استفاده شده است
+<br/>قسمت الف<br/>
+بیش از ۱۵ تا کامیت معنادار در برنچ های feature_EXPT_1 و در   dev_EXPT1و  در برنچ های دیگری که حاوی کلمه EXPT است موجود میباشد
+
+
+استفاده از عبارت EXPT1 در کامیت ها و برنچ برای نمایش آزمایش  اولی میباشد 
+
+یعنی اگر کلا یک ریپو برای این آزمایش استفاده میکردیم دیگر نیاز نبود از این عبارت استفاده کنیم ولی تیم ما تصمیم گرفت تمام آزمایش های این درس داخل یک ریپو باشه و به همین دلیل مچبور شدیم تقریبا مثل ریپو های مونولوتیک  از یک عبارت مشخص کننده استفاده کنیم 
+ 
+برنچ های 
+dev_EXPT1
+feature_EXPT_1
+staging_EXPT1
+fix_EXPT1_preinstall
+
+محدودیت برای برنچ EXPT1 گذاشته شد
+
+در تصاویر زیر هم دستی merge  انجام شده است  و همچنین c
+onflict آن ها با vscode برطرف شده است 
+
+
+![alt](./Screenshot%20from%202023-03-10%2023-09-14.png)
+![alt text](./Screenshot%20from%202023-03-10%2023-29-03.png)
+![alt](./Screenshot%20from%202023-03-10%2023-29-49.png)
+![alt](./Screenshot%20from%202023-03-10%2023-30-14.png)
+![alt](./Screenshot%20from%202023-03-10%2023-30-39.png)
+![alt](./Screenshot%20from%202023-03-10%2023-31-11.png)
+![alt](./Screenshot%20from%202023-03-10%2023-31-16.png)
+![alt](./Screenshot%20from%202023-03-10%2023-31-48.png)
+![alt](./Screenshot%20from%202023-03-10%2023-45-02.png)
+![alt](./Screenshot%20from%202023-03-10%2023-45-26.png)
 Question1) The .git folder contains all the information that is necessary for your project in version control and all the information about commits, remote repository address, etc. All of them are present in this folder. It also contains a log that stores your commit history so that you can roll back to history.<br/>
 .git is initialized by git init<br/>
 every time you use 'git *' command there, You can move the .git directory somewhere else using:<br/>
