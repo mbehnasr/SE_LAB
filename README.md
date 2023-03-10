@@ -1,9 +1,9 @@
 # SE_LAB
-Question1) The .git folder contains all the information that is necessary for your project in version control and all the information about commits, remote repository address, etc. All of them are present in this folder. It also contains a log that stores your commit history so that you can roll back to history.
-.git is initialized by git init
-every time you use 'git *' command there, You can move the .git directory somewhere else using:
-git --git-dir=/myproject_path/myproject.git log —oneline
-Or:
+Question1) The .git folder contains all the information that is necessary for your project in version control and all the information about commits, remote repository address, etc. All of them are present in this folder. It also contains a log that stores your commit history so that you can roll back to history.<br/>
+.git is initialized by git init<br/>
+every time you use 'git *' command there, You can move the .git directory somewhere else using:<br/>
+git --git-dir=/myproject_path/myproject.git log —oneline<br/>
+Or:<br/>
 export GIT_DIR=/myproject_path/myproject.git
 
 Question2) Commits should be “atomic" means: a single commit should be dedicated to a single (sub)task.
