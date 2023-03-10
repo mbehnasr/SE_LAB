@@ -11,8 +11,7 @@ atomic in atomic pull-request means: in addition to seeing more information abou
 
 Question3) git fetch is about retrieving data from a remote repository.
 git pull (I know you didn't ask about pull but bear with me) is a shorthand that retrieves data from the remote like fetch, then merges into your current branch the corresponding line of work from the remote (if there is one; the "tracking information" determines this.)
-git merge is about combining work from multiple lines of work (usually local branches, but 
-see below).
+git merge is about combining work from multiple lines of work (usually local branches).
 
 Question4) The Reset, or we can say rollback feature helps to undo modifications in the Git repository and will return the current environment to the previous commit.
 Git Revert operation is quite similar to the Git Reset command; the only difference is that you need a new commit to go back to the specific commit while performing this operation.
