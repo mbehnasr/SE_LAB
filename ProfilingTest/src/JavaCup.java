@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class JavaCup {
     public static void main(String[] args)
@@ -11,7 +12,9 @@ public class JavaCup {
         int j = scanner.nextInt();
         System.out.println("Press number3: ");
         int k = scanner.nextInt();
-        temp();
+//        temp();
+//        efficientTemp();
+        efficientTempPlus();
         eval(i, j, k);
     }
     public static void eval(int i, int j, int k)
@@ -30,5 +33,17 @@ public class JavaCup {
                 a.add(i + j);
             }
         }
+    }
+    public static void efficientTemp() {
+        ArrayList a = new ArrayList(200000000);
+        for (int i = 0; i < 10000; i++)
+        {
+            for (int j = 0; j < 20000; j++) {
+                a.add(i + j);
+            }
+        }
+    }
+    public static void efficientTempPlus() {
+        ArrayList a = new EfficientList(20000, 10000);
     }
 }
