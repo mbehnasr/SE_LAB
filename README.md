@@ -9,4 +9,5 @@
 | [EXPT1](https://github.com/mbehnasr/SE_LAB/tree/EXPT1)      | GIT - version controller|
 | [EXPT2](https://github.com/mbehnasr/SE_LAB/tree/EXPT2)      | BDD    |
 | [EXPT3](https://github.com/mbehnasr/SE_LAB/tree/EXPT3)      | Coverage |
-| [EXPT4](https://github.com/mbehnasr/SE_LAB/tree/EXPT4)      | Profiling | 
+| [EXPT4](https://github.com/mbehnasr/SE_LAB/tree/EXPT4)      | Profiling |
+| [EXPT5](https://github.com/mbehnasr/SE_LAB/tree/EXPT5)      | SOLID | 
