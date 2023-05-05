@@ -4,7 +4,11 @@
   <groupId>org.example</groupId>
   <artifactId>Rectangle</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Archetype - Rectangle</name>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+    <name>Archetype - Rectangle</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
