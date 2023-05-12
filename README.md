@@ -4,11 +4,54 @@
 
 **reza dolati - 97110411**
 
-| experiment | subject | 
-|------------|---------|
-| [EXPT1](https://github.com/mbehnasr/SE_LAB/tree/EXPT1)      | GIT - version controller|
-| [EXPT2](https://github.com/mbehnasr/SE_LAB/tree/EXPT2)      | BDD    |
-| [EXPT3](https://github.com/mbehnasr/SE_LAB/tree/EXPT3)      | Coverage |
-| [EXPT4](https://github.com/mbehnasr/SE_LAB/tree/EXPT4)      | Profiling |
-| [EXPT5](https://github.com/mbehnasr/SE_LAB/tree/EXPT5)      | SOLID | 
-| [EXPT6](https://github.com/mbehnasr/SE_LAB/tree/EXPT6)      | Design Patterns |
+---
+**EXPT6**
+
+---
+***Questions***
+
+<div dir="rtl">
+ در کتاب GoF سه دسته الگوی طراحی معرفی شده است. آن‌ها را نام ببرید و در مورد هر دسته در حد دو خط توضیح دهید.
+
+1. الگوهای ساختاری: این الگوها برای ساختاردهی و ارتباط بین شیء‌ها استفاده می‌شوند. به عنوان مثال، الگوی Decorator برای اضافه کردن ویژگی‌های جدید به یک شیء بدون تغییر کد اصلی آن استفاده می‌شود.
+2. الگوهای رفتاری: این الگوها برای مدیریت رفتار و ارتباط بین شیء‌ها استفاده می‌شوند. به عنوان مثال، الگوی Observer برای پیاده‌سازی رابطه یک به چند بین شیء‌ها استفاده می‌شود.
+3. الگوهای مسئولیت‌محور: این الگوها برای توزیع مسئولیت‌ها و ارتباط بین شیء‌ها استفاده می‌شوند. به عنوان مثال، الگوی Chain of Responsibility برای پردازش درخواست‌های متعدد با اولویت‌های مختلف استفاده می‌شود.
+---
+2.سه الگوی استفاده شده در این آزمایش جزو کدام دسته هستند؟
+
+abstract Factory in object scope and Creational purpose
+
+Prototype in object scope and Creational purpose
+
+Builder in object scope and Creatinal purpose
+
+---
+3.فرق اصلی پنج اصل SOLID با الگوهای طراحی مطرح‌شده در GoF چیست؟
+
+
+
+خلاصه در GoF  دیزاین هایی ثبات شده برای مشکلات مکرر است  در صورتی که SOLID قوانینی هستند که  مربوط به مشکلاتی نیست و در هر موردی میتوان مورد استفاده قرار گرفت
+
+
+پنج اصل SOLID شامل Single Responsibility Principle، Open/Closed Principle، Liskov Substitution Principle، Interface Segregation Principle و Dependency Inversion Principle هستند که به عنوان راهنمایی برای طراحی کد و ساختاردهی بهتر استفاده می‌شوند. این اصول برای ایجاد کدی قابل خواندن، قابل توسعه و با کیفیت بالا بسیار مهم هستند.
+
+الگوهای طراحی GoF نیز به عنوان 23 الگوی طراحی شناخته می‌شوند که برای حل مسائل مشترک در طراحی نرم افزار استفاده می‌شوند. این الگوها شامل الگوهای Creational، Structural و Behavioral هستند.
+
+فرق اصلی بین پنج اصل SOLID و الگوهای طراحی GoF این است که پنج اصل SOLID برای ساختاردهی و طراحی کد به عنوان راهنمایی کلی استفاده می‌شوند، در حالی که الگوهای طراحی GoF برای حل مسائل خاص در طراحی نرم افزار استفاده می‌شوند. به عبارت دیگر، پنج اصل SOLID برای طراحی کلی کد استفاده می‌شوند، در حالی که الگوهای طراحی GoF برای حل مسائل خاص در طراحی نرم افزار استفاده می‌شوند.
+
+---
+4.آیا الگوی طراحی Singleton موردی از اصول SOLID را نقض می‌کند؟ توضیح دهید.
+
+الگوی طراحی Singleton نقضی از اصول SOLID نمی‌باشد. SOLID شامل پنج اصل است: Single Responsibility Principle، Open/Closed Principle، Liskov Substitution Principle، Interface Segregation Principle و Dependency Inversion Principle.
+
+الگوی طراحی Singleton با اصل Single Responsibility Principle سازگار است زیرا تنها یک مسئولیت را بر عهده دارد که ایجاد یک نمونه از یک کلاس است.
+
+همچنین، الگوی طراحی Singleton با اصل Open/Closed Principle سازگار است زیرا می‌تواند تغییرات را در کد اعمال کند بدون اینکه بخش‌های دیگر کد را تحت تاثیر قرار دهد.
+
+همچنین، الگوی طراحی Singleton با اصل Liskov Substitution Principle سازگار است زیرا نمونه‌ای که از یک کلاس Singleton ایجاد می‌شود، به عنوان یک شیء از کلاس پایه مورد استفاده قرار می‌گیرد.
+
+الگوی طراحی Singleton همچنین با اصل Interface Segregation Principle سازگار است زیرا به صورت ضمنی یک رابطه بین کلاس و نمونه Singleton ایجاد می‌شود که این رابطه تنها محدود به یک نمونه از کلاس است.
+
+در نهایت، الگوی طراحی Singleton با اصل Dependency Inversion Principle سازگار است زیرا تنها یک نمونه از یک کلاس وابسته به دیگر کلاس‌ها است و هیچ نمونه دیگری به آن وابستگی ندارد.
+
+</div>
