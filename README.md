@@ -4,15 +4,8 @@
 
 **reza dolati - 97110411**
 
-| experiment | subject | 
-|------------|---------|
-| [EXPT1](https://github.com/mbehnasr/SE_LAB/tree/EXPT1)      | GIT - version controller|
-| [EXPT2](https://github.com/mbehnasr/SE_LAB/tree/EXPT2)      | BDD    |
-| [EXPT3](https://github.com/mbehnasr/SE_LAB/tree/EXPT3)      | Coverage |
-| [EXPT4](https://github.com/mbehnasr/SE_LAB/tree/EXPT4)      | Profiling |
-| [EXPT5](https://github.com/mbehnasr/SE_LAB/tree/EXPT5)      | SOLID | 
-| [EXPT6](https://github.com/mbehnasr/SE_LAB/tree/EXPT6)      | Design Patterns |
-| [EXPT7](https://github.com/mbehnasr/SE_LAB/tree/EXPT7)      | Refactoring|
-| [EXPT8](https://github.com/mbehnasr/SE_LAB/tree/EXPT8)      | ITIL|
-| [EXPT9](https://github.com/mbehnasr/SE_LAB/tree/EXPT9)      | Microservice|
+<div dir="rtl">
 
+پاسخ آزمایش در pdf میباشد 
+
+</div>
