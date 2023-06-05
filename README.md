@@ -12,3 +12,7 @@
 | [EXPT4](https://github.com/mbehnasr/SE_LAB/tree/EXPT4)      | Profiling |
 | [EXPT5](https://github.com/mbehnasr/SE_LAB/tree/EXPT5)      | SOLID | 
 | [EXPT6](https://github.com/mbehnasr/SE_LAB/tree/EXPT6)      | Design Patterns |
+| [EXPT7](https://github.com/mbehnasr/SE_LAB/tree/EXPT7)      | Refactoring|
+| [EXPT8](https://github.com/mbehnasr/SE_LAB/tree/EXPT8)      | ITIL|
+| [EXPT9](https://github.com/mbehnasr/SE_LAB/tree/EXPT9)      | Microservice|
+
